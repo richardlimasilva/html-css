@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            background-color: #176361;
+        }
+        
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(63, 3, 3);
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: white;
+        }
+
+        a:active{
+            color: #73FFE3;
+        }
+        a::after{
+            content: ' <<<';
+        }
+        a::before{
+            content: '>>> ';
+        }
+        div{
+            background-color: #1A292B;
+            width: 300px;
+            border: 5px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando Programação</h1>
+    <div>
+        <ul>
+            <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal Curso em Vídeo</a></li>
+            <li><a href="https://github.com/gustavoguanabara" target="_blank">GitHub Curso em Vídeo</a></li>
+        </ul>
+    </div>
+</body>
+</html>

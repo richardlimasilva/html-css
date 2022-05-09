@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed; /*Eliminou o efeito do degrade quebrado*/
+}
+body{
+    background-image: linear-gradient(to bottom, #026873, #0BADBF)
+}
+main{
+    background-color: white; 
+    border-radius: 10px; /* Bordas arredondadas*/
+    box-shadow: 5px 5px 10px #01313bad; /*Sombreado*/
+    width: 600px; /*indica o tamanho do box*/
+    padding: 10px; /*cria um espaçamento entre o texto e a borda do box*/
+    margin: auto; /* centraliza seu box*/
+}
+h1{
+    color: #d8a390;
+    text-shadow: 2px 2px 2px #b48878;
+    text-align: center;
+}
+h2{
+    color: #024959;
+    text-shadow: 1px 1px 2px #024959ad;
+    
+}
+p{
+    text-align: justify;
+}

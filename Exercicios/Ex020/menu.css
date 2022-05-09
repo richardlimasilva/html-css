@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lobster&family=Playball&family=Rowdies:wght@300&display=swap');
+
+body{
+    background-color: #A61446;
+    font-family: "Rowdies";
+}
+
+h1{
+    background-color: #0B4959;
+}
+
+div#menu{
+    background-color: #DBCF46;
+    width: 300px;
+    border: 2px solid #A61446;
+    border-radius: 10px;
+}
+#p1:hover{
+    background-color: #59142C;
+    color: white;
+}
+
+#p2:hover{
+    background-color: #59142C;
+    color: white;
+}
+
+#p3:hover{
+    background-color: #59142C;
+    color: white;
+}
+
+#p4:hover{
+    background-color: #59142C;
+    color: white;
+}
+
+#p1::before{
+    content: '>';
+}
+#p1::after{
+    content: '<';
+}
+
+#p2::before{
+    content: '>';
+}
+#p2::after{
+    content: '<';
+}
